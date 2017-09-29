@@ -68,5 +68,12 @@ h2{color: red;
   font-weight: 900}
 }
 
-p.thick{font-weight: bold!important
+p#TS {
+  font: bold 52px Times,"Times New Roman", sans-serif
+}
+
+P#line2 {color:blue
+}
+img#happyturtle {
+  border: 20px dashed #000
 }
