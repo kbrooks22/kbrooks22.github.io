@@ -68,5 +68,5 @@ h2{color: red;
   font-weight: 900}
 }
 
-p1{font-weight: bold;
-border: purple}
+p.thick{font-weight: bold!important
+}
