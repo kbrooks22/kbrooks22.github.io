@@ -76,9 +76,18 @@ P#line2 {color:blue
 }
 img#happyturtle {
   border: 20px dashed #000
-
 }
 
 body{
  text-align: center;
  }
+
+ img#smallturtle {
+  width:450px;
+  height:375px;
+  text-align: left;
+}
+
+img#longneck {
+  text-align: right;
+}
