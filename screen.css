@@ -69,7 +69,8 @@ h2{color: red;
 }
 
 p#TS {
-  font: bold 52px Times,"Times New Roman", sans-serif
+  font: bold 52px Times,"Times New Roman", sans-serif;
+  color: white
 }
 
 P#line2 {color:blue
@@ -80,6 +81,7 @@ img#happyturtle {
 
 body{
  text-align: center;
+ background: black;
  }
 
  img#smallturtle {
@@ -91,3 +93,5 @@ body{
 img#longneck {
   text-align: right;
 }
+
+p {color: white}
