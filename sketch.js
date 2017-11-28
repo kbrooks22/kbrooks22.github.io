@@ -16,3 +16,4 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block"; 
 }
+//Code Sourced from W3schools.com, specifically W3.CSS Slideshow
