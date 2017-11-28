@@ -57,20 +57,127 @@ a {
 #main {
   padding: 50px; }
 
+
 h1{
+  /*display:inline-block;*/
   color:purple; 
   font-size:4em;
-  border-top:1px;solid red
+  padding: 5px;
+  border-style: groove;
+  border-bottom:groove;
+  border-bottom-width: 10px;
+  border-color: red;
+  opacity: 0.75;
 }
 
 h2{color: red;
-  font-size:large;
-  font-weight: 900}
+font:bolder 1.7em Arial;
+font-weight: 900;
+padding: 10px;
+margin-bottom: 30px;
+border-style: groove;
+border-bottom:groove;
+border-bottom-width: 10px;
+border-color: red;
 }
 
-p#TS {
-  font: bold 52px Times,"Times New Roman", sans-serif;
-  color: white
+p#Source_Code {
+float: left;
+margin-bottom: 0px;
+margin-top: 10%;
+font-size: 1.5em;
+}
+
+p#Resume {
+font-size: 1.5em;
+float: right;
+margin-top: 10%;
+margin-bottom: 0px;
+}
+
+p#Description {
+text-align: center;
+font:bold 20px Arial,Times, sans-serif;
+color: black;
+padding: 30px;
+margin-right: 125px;
+margin-left: 125px;
+margin-bottom: 30px;
+border-style: dashed;
+border-left: solid 30px;
+border-right: solid 30px; 
+}
+
+h3 {
+font:bolder 40px Arial;
+text-align: center;
+border-style: solid;
+border-bottom:solid; 
+border-bottom-width: 3px;
+padding: 0px;
+}
+
+/*h6 {
+font:bold 30px Arial;
+text-align: left;
+margin-right: 55%; 
+margin-top: 20px;
+margin-bottom: 15px;
+display: inline-block;
+border-style: :dashed;
+border-bottom: dashed;
+border-bottom-width: 3px;
+}*/
+
+p#PSKILLS {
+font: bolder 25px Futra,"Times New Roman", sans-serif;
+color: black;
+margin-right: 55%;
+text-align: center;
+line-height:35px;
+border-style: groove;
+border-bottom: groove 15px;
+}
+
+.Skills{
+color: black;
+}
+
+#PHEADER{
+font:bold 30px Arial;
+float: left;
+margin-right: 80%; 
+margin-left: -45%;
+margin-top: 20px;
+margin-bottom: 15px;
+border-style: :dashed;
+border-bottom: dashed;
+border-bottom-width: 3px;
+}
+
+#PRO{
+font: bolder 25px Futra,"Times New Roman", sans-serif;
+color: black;
+margin-right: 80%; 
+margin-left: -45%;
+text-align: center;
+line-height:35px;
+border-style: groove;
+border-bottom: groove 15px;
+
+}
+
+#ARTS{
+text-align: center;
+float: right;
+margin-left: 55%;
+color: black;
+}
+
+#HEADER{
+  float: right;
+  color: purple;
+  text-align: right;
 }
 
 P#line2 {color:blue
@@ -81,7 +188,7 @@ img#happyturtle {
 
 body{
  text-align: center;
- background: black;
+ background: white;
  }
 
  img#TimeVase {
