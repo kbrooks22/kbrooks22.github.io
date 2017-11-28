@@ -117,7 +117,7 @@ border-bottom-width: 3px;
 padding: 0px;
 }
 
-/*h6 {
+h6 {
 font:bold 30px Arial;
 text-align: left;
 margin-right: 55%; 
@@ -127,11 +127,17 @@ display: inline-block;
 border-style: :dashed;
 border-bottom: dashed;
 border-bottom-width: 3px;
-}*/
+}
 
-p#PSKILLS {
-font: bolder 25px Futra,"Times New Roman", sans-serif;
+.Skills{
+font:bolder 25px Futra,Times, sans-serif;
 color: black;
+/*display: inline;*/
+}
+
+#PSKILLS {
+/*font: bolder 25px Futra,"Times New Roman", sans-serif;
+color: black*/;
 margin-right: 55%;
 text-align: center;
 line-height:35px;
@@ -139,52 +145,16 @@ border-style: groove;
 border-bottom: groove 15px;
 }
 
-.Skills{
-color: black;
-}
-
-#PHEADER{
-font:bold 30px Arial;
-float: left;
-margin-right: 80%; 
-margin-left: -45%;
-margin-top: 20px;
-margin-bottom: 15px;
-border-style: :dashed;
-border-bottom: dashed;
-border-bottom-width: 3px;
-}
-
-#PRO{
-font: bolder 25px Futra,"Times New Roman", sans-serif;
-color: black;
-margin-right: 80%; 
-margin-left: -45%;
+#ASKILLS{
+margin-left: 55%;
+margin-top: -9%;
 text-align: center;
 line-height:35px;
 border-style: groove;
 border-bottom: groove 15px;
-
 }
 
-#ARTS{
-text-align: center;
-float: right;
-margin-left: 55%;
-color: black;
-}
 
-#HEADER{
-  float: right;
-  color: purple;
-  text-align: right;
-}
-
-P#line2 {color:blue
-}
-img#happyturtle {
-  border: 20px dashed #000
-}
 
 body{
  text-align: center;
