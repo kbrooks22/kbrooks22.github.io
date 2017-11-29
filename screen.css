@@ -121,9 +121,9 @@ padding: 0px;
 
 h4{
 font:bold 30px Futra;
-/*margin-left: -7%;
-margin-top: 20px;
-margin-bottom: 15px;*/
+/*margin-left: -7%;*/
+margin-top: 22px;
+margin-bottom: -55px;
 display: inline-block;
 border-style: :dashed;
 border-bottom: dashed;
@@ -141,17 +141,25 @@ display: inline;
 
 h6 {
 font:bold 30px Futra;
-/*text-align: center;
-margin-right: 40%; 
-margin-top: 20px;
-margin-bottom: 15px;*/
+/*text-align: center;*/
+/*margin-right: 40%; */
+/*margin-top: 20px;*/
+margin-bottom: -45px;
 display: inline-block;
 border-style: :dashed;
 border-bottom: dashed;
 border-bottom-width: 3px;
 }
 
-.SkillHeader{
+/*.SkillHeader{
+  font:bold 30px Futra;
+  display: inline-block;
+border-style: :dashed;
+border-bottom: dashed;
+border-bottom-width: 3px;
+}*/
+.Skills,.SkillHeader{
+font:bolder 25px Futra,Times, sans-serif;
 color: black;
 text-align: center;
 padding: 0px;
@@ -159,32 +167,7 @@ column-count: 2;
 column-gap: 1em;
 white-space: pre-wrap;
 }
-.Skills{
-font:bolder 25px Futra,Times, sans-serif;
-color: black;
-text-align: center;
-padding: 0px;
-column-count: 2;
-column-gap: 1em;
-white-space: pre-wrap;}
 
-/*#PSKILLS {*/
-/*margin-left: 8%;*/
-/*float: left;*/
-/*line-height:35px;
-width: 30%;
-vertical-align: top;
-}*/
-
-/*#ASKILLS{
-*//*margin-left: 55%;
-margin-top: -10.5%;
-text-align: center;*/
-/*line-height:35px;
-width: 60%;
-vertical-align: top;
-}
-*/
 .Projects{
 font:bolder 40px Futra;
 text-align:center;
@@ -206,7 +189,7 @@ margin: auto;
 
 body{
  text-align: center;
- background:rgb(148, 150, 153);
+ background:rgb(209, 207, 207);
  }
 
 p {color: black}
